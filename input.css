@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom CSS */
+
+body {
+    background-image: url("../images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain; /* contain: Scales the image as large as possible within its container without cropping or stretching the image. 
+      If the container is larger than the image, this will result in image tiling, unless the background-repeat property is set to no-repeat. */
+}
+
+@media (max-width: 576px) {
+    body {
+        background-image: url("../images/bg-header-mobile.png");
+    }
+}
