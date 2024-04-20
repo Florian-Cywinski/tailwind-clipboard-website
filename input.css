@@ -41,3 +41,8 @@ body {
     }
 }
 
+.ficon:hover {
+    /* Custom class for the social icons / links */
+    filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+        brightness(101%) contrast(94%); /* Another way to change the color and therefor have a hover effect */
+}
